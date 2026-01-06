@@ -56,14 +56,6 @@ unzip data.zip
 unzip models.zip
 
 
-### **Example Multimodal Inputs and Annotation**
-
-| RGB Image | CHM Image | Ground-Truth Mask |
-|----------|----------|-------------------|
-| <img src="./asset/RGB.png" width="200"> | <img src="./asset/CHM.png" width="200"> | <img src="./asset/Annotation.png" width="200"> |
-
----
-
 ## **Installation**
 
 Install all required dependencies using:
@@ -72,7 +64,12 @@ Install all required dependencies using:
 pip install -r requirements.txt
 ```
 
----
+## **Example Multimodal Inputs and Annotation**
+
+| RGB Image | CHM Image | Ground-Truth Mask |
+|-----------|-----------|------------------|
+| ![RGB](asset/RGB.png) | ![CHM](asset/CHM.png) | ![Mask](asset/Annotation.png) |
+
 
 ## **Model Training and Validation**
 
